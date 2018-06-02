@@ -36,9 +36,9 @@ RMII全称为“简化的媒体独立接口”，是IEEE-802.3u标准中除MII�
 # 3.精简的独立于介质的接口（RMII）
 精简的独立于介质接口(RMII)规范减少了以太网通信所需要的引脚数。根据IEEE802.3标准，MII接口需要16个数据和控制信号引脚，而RMII标准则将引脚数减少到了7个。RMII具有以下特性：
 
-    时钟信号需要提高到50MHz。   
-    MAC和外部的以太网PHY需要使用同样的时钟源   
-    使用2位宽度的数据收发   
+时钟信号需要提高到50MHz。   
+MAC和外部的以太网PHY需要使用同样的时钟源   
+使用2位宽度的数据收发   
 
 RMII的信号线如下图所示：
 ![image](https://github.com/yuchengstudio/SAME70/blob/master/Ethernet/picture/RMII.jpg)
